@@ -1,0 +1,74 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Lomo fino de res",
+      "categoria": "Res",
+      "precio": 48000,
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "nombre": "Costilla de cerdo",
+      "categoria": "Cerdo",
+      "precio": 26000,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "nombre": "Pechuga de pollo",
+      "categoria": "Pollo",
+      "precio": 22000,
+      "stock": 40
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Cliente mostrador",
+      "telefono": "3000000000",
+      "direccion": "Venta en local"
+    },
+    {
+      "id": 2,
+      "nombre": "Cliente de ejemplo",
+      "telefono": "3100000000",
+      "direccion": "Bogotá D.C."
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 1,
+      "nombre": "Frigorífico Demo",
+      "telefono": "6010000000",
+      "producto": "Carne de res"
+    },
+    {
+      "id": 2,
+      "nombre": "Avícola Demo",
+      "telefono": "6010000001",
+      "producto": "Pollo"
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "fecha": "2026-11-10",
+      "proveedor": "Frigorífico Demo",
+      "producto": "Lomo fino de res",
+      "cantidad": 10,
+      "total": 350000
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "fecha": "2026-11-11",
+      "cliente": "Cliente mostrador",
+      "producto": "Pechuga de pollo",
+      "cantidad": 2,
+      "total": 44000,
+      "metodo": "Efectivo"
+    }
+  ]
+}
